@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 :root {
   color-scheme: light;
   --navy: #122844;
@@ -99,3 +100,14 @@ footer { grid-column: 1 / -1; border-top: 1px solid #d0d5da; padding: 13px 26px;
 .talk-button:hover:not(:disabled) { background: #284565; color: white; }
 .talk-button:disabled { opacity: .72; cursor: not-allowed; }
 .talk-note { color: var(--muted); font-size: 13px; margin-top: 6px; }
+/* Vietnamese typography */
+html[lang="vi"] body {
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+}
+
+html[lang="vi"] h1,
+html[lang="vi"] h2,
+html[lang="vi"] h3 {
+    letter-spacing: normal;
+    line-height: 1.4;
+}
